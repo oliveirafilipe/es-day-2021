@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fidget Spinner</title>
+
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+
+    <div class="infos">
+      <span class="info-text">Current Speed : <span id="svalue">3</span></span><br>
+
+      <input type="text" maxlength="3" style="width: 30px" name="value" id='value' />
+      <input type="button" value="Set Speed" onclick="verifyorder()" /><br>
+
+      <br><br>
+      <span class="info-text">For Lazy People</span><br>
+      <input type="button" value="Spin It For Me!" onclick="spin()" />
+      <br><br>
+      <span>Based On: <a href="https://github.com/Hackinet/fidget-spinner" target="_blank">https://github.com/Hackinet/fidget-spinner</a></span>
+    </div>
+
+    <div id="spinner" style="display: none"></div>
+    <canvas id="canvas" width="500" height="500"></canvas>
+
+    <script type="application/javascript" src="js/index.js"></script>
+  </body>
+</html>

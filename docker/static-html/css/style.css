@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  background: #000000;
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+#spinner {
+  color: #7954ff;
+}
+
+.infos {
+  margin: 5px;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 3px;
+  background-color: aliceblue;
+}
+.infos .info-text {
+  font-weight: bold;
+  color: black;
+  font-size: larger;
+}
+
+/*# sourceMappingURL=style.css.map */
